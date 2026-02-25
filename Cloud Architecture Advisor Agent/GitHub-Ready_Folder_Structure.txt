@@ -1,0 +1,29 @@
+Cloud-Architecture-Advisor/
+│
+├── app/
+│   └── app.py
+│
+├── agent/
+│   ├── state.py
+│   ├── nodes.py
+│   └── graph.py
+│
+├── tools/
+│   ├── pricing.py
+│   ├── compliance.py
+│   └── server.py
+│
+├── core/
+│   ├── config.py
+│   └── llm.py
+│
+├── tests/
+│   └── test_tools.py
+│
+├── .env.example
+├── .gitignore
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
+└── Project_High_Level_Design.txt
